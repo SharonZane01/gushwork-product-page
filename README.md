@@ -1,6 +1,6 @@
 # Mangalam HDPE Pipes - Product Page
 
-**🌐 Live Demo:** [View the live site on Netlify](YOUR_NETLIFY_LINK_HERE)
+**🌐 Live Demo:** [View the live site on Netlify](https://mangalam-hdpe-pipes.netlify.app/)
 
 A fully responsive, interactive product landing page built strictly with vanilla web technologies. This project was developed to match specific Figma design requirements, focusing on pixel-perfect UI, performance, and clean code architecture without the use of any external frameworks or libraries.
 
