@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <title>Mangalam HDPE Pipes - Product Page</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,11 +14,23 @@
             <div class="logo">
                 <img src="images/logo.png" alt="Mangalam Hope Pipes Logo" height="70px" width="200px">
             </div>
-            <nav class="nav-links">
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
                 <a href="#">About Us</a>
                 <a href="#" class="dropdown">Products <span class="arrow-down"></span></a>
+                <div class="mobile-header-actions">
+                    <button class="btn-primary">Contact Us</button>
+                </div>
             </nav>
-            <div class="header-actions">
+            
+            <div class="header-actions desktop-only">
                 <button class="btn-primary">Contact Us</button>
             </div>
         </div>
@@ -35,10 +47,10 @@
                 <div class="product-gallery">
                     <div class="main-image-container" id="image-zoom-container">
                         <img src="images/banner-1.png" alt="HDPE Pipes on Boat" id="main-product-image">
-                        <button class="carousel-btn prev-btn" id="prev-btn">
+                        <button class="carousel-btn prev-btn" id="prev-btn" aria-label="Previous image">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                         </button>
-                        <button class="carousel-btn next-btn" id="next-btn">
+                        <button class="carousel-btn next-btn" id="next-btn" aria-label="Next image">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
                         </button>
                     </div>
